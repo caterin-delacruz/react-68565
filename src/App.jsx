@@ -1,14 +1,23 @@
-import ItemListContainer from './components/ItemListCointener';
-import NavBar from './components/NavBar';
-/* import TitleComponent from './components/TitleComponent';
- */
+import Navbar from "./components/layouts/navbar/Navbar";
+import ItemListConteiner from "./components/pages/itemListContainer/ItemListContainer";
+import { ItemDetail } from "./components/pages/itemDetail/ItemDetail";
+import Cart from "./components/pages/cart/Cart";
+
+import { BrowserRouter, Routes, Route } from "react-router";
+
+
 function App() {
-  return (
-    <>
-    <NavBar/>
-    <ItemListContainer greeting={"Saludos profe XD"}/>
-    </>
-  );
+  return <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<ItemListConteiner />} />
+      <Route path="/category/:name" element={<ItemListConteiner />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/ItemDetail/:id" element={<ItemDetail />} />
+      <Route path="*" element={<h2>404 not found</h2>} />
+
+    </Routes>
+  </BrowserRouter>
 }
 
 export default App;
