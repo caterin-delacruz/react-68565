@@ -1,6 +1,6 @@
-import CartWidget from "../../common/CartWidget/CartWidget";
+import CartWidget from "../../common/cartWidget/CartWidget";
 import { Link } from "react-router";
-import "../navbar/navbar.css";
+import "./navbar.css";
 
 
 const Navbar = () => {
