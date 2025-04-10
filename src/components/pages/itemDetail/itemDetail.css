@@ -1,0 +1,22 @@
+.item-detail-Card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 650px;
+    width: 430px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.product-image-detail {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
