@@ -1,8 +1,5 @@
-# React + Vite
+# MODERN-GLOW
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://res.cloudinary.com/dxfcbvvyb/image/upload/v1744252795/logo_hj4vts.png" width="200" height="200">
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Este proyecto nace a partir de un proyecto personal real, al cual le quiero dar vida a travez de este curso de React para poder aprovechar todas las herramientas disponibles para dar alcance y visibilidad a mi negocio.
